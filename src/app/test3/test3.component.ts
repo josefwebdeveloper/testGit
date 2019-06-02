@@ -1,4 +1,5 @@
-import {Component, OnInit} from '@angular/core';
+
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-test3',
@@ -6,13 +7,11 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./test3.component.scss']
 })
 export class Test3Component implements OnInit {
-  ggg;
 
-  constructor() {
-  }
+gggg;
+  constructor() { }
 
   ngOnInit() {
-    this.ggg = 3;
-  }
+  }s
 
 }
