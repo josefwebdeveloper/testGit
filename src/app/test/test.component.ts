@@ -6,13 +6,16 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./test.component.scss']
 })
 export class TestComponent implements OnInit {
-  tets;
+
+  tests;
 
   constructor() {
   }
 
   ngOnInit() {
-    this.tets = '23'
+
+  
+    this.tests = '1222';
   }
 
 }
